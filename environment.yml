@@ -1,7 +1,0 @@
-dependencies:
-  - python
-  - numpy
-  - scipy
-  - matplotlib
-  - seaborn
-  - pandas
