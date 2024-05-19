@@ -1,0 +1,9 @@
+name: pythonClassHaifa2024
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
