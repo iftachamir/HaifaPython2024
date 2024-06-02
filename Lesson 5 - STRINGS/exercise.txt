@@ -1,0 +1,12 @@
+a = input()
+
+# Check if it is odd or even?
+if (len(a) % 2 == 0):
+  mid_idx = int(len(a)/2)      # Get index of middle
+else:
+  mid_idx = int(len(a)/2) + 1  # Get index of middle
+
+# Copy and flip parts
+firstword = a[0:mid_idx]     # Copy first half
+secondword = a[mid_idx:]     # Copy second half
+print(secondword, firstword, sep = '')
