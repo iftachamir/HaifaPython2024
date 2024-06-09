@@ -1,0 +1,34 @@
+#### SOLUTION 1 #############################
+s = input()    # Read a string
+newword = ""   # empty string
+
+# Go over each each character in string
+for idx in range(len(s)):
+  current_char = s[idx]
+  
+  # Change "1" and keep all other characters
+  if current_char=='1':
+    newword = newword + "one"
+  else:
+    newword = newword + current_char
+
+print(newword)
+############################################
+
+
+
+#### SOLUTION 2 ####
+s = input()    # Read a string
+newword = ""   # empty string
+
+# Go over each each character in string
+for each_char in s:
+  
+  # Change "1" and keep all other characters
+  if each_char=='1':
+    newword = newword + "one"
+  else:
+    newword = newword + each_char
+
+print(newword)
+############################################
